@@ -13,8 +13,10 @@ struct CheckoutView: View {
     @State private var addLoyaltyDetails = false
     @State private var loyaltyNumber = ""
     @State private var tipAmount = 15
+    @State private var pickupType = "Rano"
     @State private var showingPaymentAlert = false
     let tipAmounts = [10, 15, 20, 25, 0]
+    let pickupTypes = ["Rano", "W samo południe", "Wieczorem", "Nocne żery"]
     
     
     var totalPrice: String {
@@ -40,6 +42,15 @@ struct CheckoutView: View {
                 if addLoyaltyDetails {
                     TextField("Enter your Żryj z hasioka ID", text: $loyaltyNumber)
                 }
+                Section(header: Text("Pickup time")) {
+                    Picker("Part of day:", selection: $pickupType) {
+                        ForEach(pickupTypes, id: \.self) {
+                            Text("\($0)%")
+                        }
+                    }
+                    .pickerStyle(.segmented)
+                }
+                
                 Section(header: Text("Add a tip?")) {
                     Picker("Percentage:", selection: $tipAmount) {
                         ForEach(tipAmounts, id: \.self) {
