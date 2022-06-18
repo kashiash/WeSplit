@@ -27,6 +27,11 @@ struct ItemDetail: View {
             }
                    Text(item.description)
                 .padding()
+            
+            Button("Order This"){
+                order.add(item: item)
+            }
+            .font(.headline)
             Spacer()
                }
                .navigationTitle(item.name)
@@ -37,7 +42,8 @@ struct ItemDetail: View {
 struct ItemDetail_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-              ItemDetail(item: MenuItem.example)
+            ItemDetail(item: MenuItem.example)
+                .environmentObject(Order())
           }
     }
 }

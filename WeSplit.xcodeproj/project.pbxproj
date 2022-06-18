@@ -17,6 +17,8 @@
 		A3439A28285DE70B005B9EE7 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = A3439A27285DE70B005B9EE7 /* menu.json */; };
 		A3439A2A285DFF25005B9EE7 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3439A29285DFF25005B9EE7 /* ItemRow.swift */; };
 		A3439A2C285E16E9005B9EE7 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3439A2B285E16E9005B9EE7 /* ItemDetail.swift */; };
+		A37D049F285E2CF80039F4F6 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D049E285E2CF80039F4F6 /* OrderView.swift */; };
+		A37D04A1285E2F320039F4F6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D04A0285E2F320039F4F6 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		A3439A27285DE70B005B9EE7 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		A3439A29285DFF25005B9EE7 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		A3439A2B285E16E9005B9EE7 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		A37D049E285E2CF80039F4F6 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		A37D04A0285E2F320039F4F6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +72,10 @@
 				A3439A23285DE669005B9EE7 /* Menu.swift */,
 				A3439A24285DE669005B9EE7 /* Order.swift */,
 				A3439A15285DE632005B9EE7 /* ContentView.swift */,
+				A37D04A0285E2F320039F4F6 /* MainView.swift */,
 				A3439A29285DFF25005B9EE7 /* ItemRow.swift */,
 				A3439A2B285E16E9005B9EE7 /* ItemDetail.swift */,
+				A37D049E285E2CF80039F4F6 /* OrderView.swift */,
 				A3439A27285DE70B005B9EE7 /* menu.json */,
 				A3439A17285DE636005B9EE7 /* Assets.xcassets */,
 				A3439A19285DE636005B9EE7 /* Preview Content */,
@@ -157,6 +163,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3439A2C285E16E9005B9EE7 /* ItemDetail.swift in Sources */,
+				A37D04A1285E2F320039F4F6 /* MainView.swift in Sources */,
+				A37D049F285E2CF80039F4F6 /* OrderView.swift in Sources */,
 				A3439A16285DE632005B9EE7 /* ContentView.swift in Sources */,
 				A3439A14285DE632005B9EE7 /* WeSplitApp.swift in Sources */,
 				A3439A26285DE669005B9EE7 /* Order.swift in Sources */,
