@@ -19,6 +19,7 @@
 		A3439A2C285E16E9005B9EE7 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3439A2B285E16E9005B9EE7 /* ItemDetail.swift */; };
 		A37D049F285E2CF80039F4F6 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D049E285E2CF80039F4F6 /* OrderView.swift */; };
 		A37D04A1285E2F320039F4F6 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D04A0285E2F320039F4F6 /* MainView.swift */; };
+		A37D04A3285E31380039F4F6 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37D04A2285E31380039F4F6 /* CheckoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		A3439A2B285E16E9005B9EE7 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		A37D049E285E2CF80039F4F6 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		A37D04A0285E2F320039F4F6 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A37D04A2285E31380039F4F6 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				A3439A13285DE632005B9EE7 /* WeSplitApp.swift */,
+				A37D04A2285E31380039F4F6 /* CheckoutView.swift */,
 				A3439A21285DE65B005B9EE7 /* Helper.swift */,
 				A3439A23285DE669005B9EE7 /* Menu.swift */,
 				A3439A24285DE669005B9EE7 /* Order.swift */,
@@ -164,6 +167,7 @@
 			files = (
 				A3439A2C285E16E9005B9EE7 /* ItemDetail.swift in Sources */,
 				A37D04A1285E2F320039F4F6 /* MainView.swift in Sources */,
+				A37D04A3285E31380039F4F6 /* CheckoutView.swift in Sources */,
 				A37D049F285E2CF80039F4F6 /* OrderView.swift in Sources */,
 				A3439A16285DE632005B9EE7 /* ContentView.swift in Sources */,
 				A3439A14285DE632005B9EE7 /* WeSplitApp.swift in Sources */,
