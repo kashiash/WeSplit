@@ -45,10 +45,10 @@ struct CheckoutView: View {
                 Section(header: Text("Pickup time")) {
                     Picker("Part of day:", selection: $pickupType) {
                         ForEach(pickupTypes, id: \.self) {
-                            Text("\($0)%")
+                            Text("\($0)")
                         }
                     }
-                    .pickerStyle(.segmented)
+                   // .pickerStyle(.wheel) //segmented, wheel,
                 }
                 
                 Section(header: Text("Add a tip?")) {
